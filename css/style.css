@@ -32,7 +32,7 @@ h2 {
 ul {
     display: flex;
     list-style: none;
-    gap: 10px;
+    gap: 25px;
 }
 
 li {
@@ -90,10 +90,59 @@ button {
 
 .section2 {
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 10px 300px 70px 300px;
+}
+
+img {
+    width: 125px;
+    height: 125px;
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.col p{
+    max-width: 125px;
+}
+
+.section2Content {
+    display: flex;
+    justify-content: space-between;
+}
+
+h3 {
+    align-self: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
 }
 
 .section3 {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.col2{
+    display: flex;
+    flex-direction: column;
+}
+
+.section3 .col2 p {
+    max-width: 50vw;
+    font-size: 26px;
+    font-style: italic;
+    font-weight: lighter;
+    columns: #1F2937;
+}
+
+.col2 h4{
+    align-self: flex-end;
 }
 
 .section4 {
